@@ -1,0 +1,221 @@
+#navigation{
+	background-color: #000066;
+	border-bottom: 3px solid #bd9656;
+	border-radius: 0px;
+	padding-left: 0px;
+}
+@font-face{
+	font-family: gotham;
+	src: url('../fonts/Gotham-Medium.otf');
+}
+
+@font-face{
+	font-family: muse;
+	src: url('../fonts/Gotham-Medium.otf');
+}
+
+@font-face{
+	font-family: museo;
+	src: url('../fonts/GothamXNarrow-Medium.otf');
+}
+
+
+
+.main_wrapper .top-bar{
+	padding: 5px;
+	background-color: #2e2e2e;
+	/*background-image:url('../img/engineering/2.png');*/
+}
+.main_wrapper .top-bar a{
+	color: #fff;
+	font-weight: normal;
+	margin-right:10px;
+}
+/* social media icons*/
+.socialArea .fa-twitter{
+	background-color: #bd9656;
+}
+.socialArea .fa-facebook{
+	background-color: #bd9656;
+}
+.socialArea .fa-google-plus{
+	background-color: #bd9656;
+}
+.socialArea .fa-pinterest-p{
+	background-color: #bd9656;
+}
+.socialArea .fa-flickr{
+	background-color: #bd9656;
+}
+.socialArea .fa-youtube-play{
+	background-color: #bd9656;
+}
+
+/* end socail media icons*/
+
+
+#navigation li a{
+	color:white;
+	padding-left: 0px;
+	padding-right: 0px;
+    font-family: museo;
+    margin-left: 0px !important;
+    font-weight: normal;
+}
+#navigation li a:hover {
+	background-color: white;
+}
+#navigation .dropdown-menu li a{
+	font-weight: normal;
+	font-family: museo;
+	letter-spacing: 1px;
+	color: #888;
+}
+
+#navigation .dropdown-menu a:hover{
+	/*background-color: #242253;*/
+	color: #242253;
+
+}
+.dropdown li a:hover{
+    color:white;
+}
+#navigation .caret{
+	display: none;
+}
+/*
+   UPCOMING EVENTS
+*/
+.rel_right a{
+		font-size:15px;
+		color: #000066;
+		font-weight: normal;
+	}
+
+/*rel_right a:hover{
+		font-size:14px;
+		color: #15488a;
+		/*font-family: gotham;		font-weight: normal;
+	}*/
+.rel_right h4{
+	font-family: museo;
+}
+.news-title h3{
+	font-family: gotham; text-transform: capitalize; font-weight: normal; background-color: #000066; color: white; padding-top:10px;padding-bottom:10px;
+}
+
+
+/* NEWWS VIEW STYLING*/
+li .news-view {
+    margin-bottom: 20px;
+}
+.rel_right h4{
+	font-family: gotham;
+}
+
+.upcoming_events span.date {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000066;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    padding: 5px 0;
+    border: 3px solid #dce4ea;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#block-views-news-block .more-link a{
+	background-color: #000066;
+	border: 1px solid #ccc;
+    padding:10px;
+    color:white;
+}
+#block-views-news-block .more-link a:hover{
+	background-color: #bd9656;
+	border: 1px solid #ccc;
+    padding:10px;
+    color:white;
+}
+#block-views-announcement-block .more-link a{
+	color:white;
+	background: #bd9656;
+	padding:8px;
+	border-radius: 2px;
+}
+#block-views-announcement-block .view-content .views-row-1{
+	background-color: #000066;
+}
+
+.icon {
+    padding-top: 35px;
+    width: 110px;
+    height: 110px;
+    background-color: rgba(20,10,23,0.5);
+
+}
+ 
+
+.testimonial-section h4{
+	font-family: gotham; 
+	text-transform: capitalize; 
+	font-weight: normal; 
+	background-color: #000066; 
+	color: white; 
+	padding-top:10px;
+	padding-bottom:10px; 
+	margin-bottom: 20px;
+}
+.features h4{
+	font-family: gotham; 
+	text-transform: capitalize; 
+	font-weight: normal; 
+	background-color: #000066; 
+	color: white;
+	padding-top:10px;
+	padding-bottom:10px; 
+	margin-bottom: 20px;
+}
+
+.menuFooter h5{
+	font-family: gotham;
+	color: #bd9656;
+}
+.menuFooter li a{
+	color: #000066;
+	font-size:14px;
+	font-weight: normal;
+	text-transform: capitalize;	
+}
+.footer-address a{
+	color: #242253;
+}
+.menuFooter h5{
+	font-family: gotham;
+}
+.footer{
+	background-color: #242253;
+	border-top: 3px solid #bd9656;
+}
+
+.aboutArea .footer {
+    padding: 35px 0 40px 0;
+    background-color: #000066;
+    
+}
+
+ul.contextual-links li a {
+    color: #333 !important;
+    display: block;
+    margin: 0.25em 0;
+    margin-top: 0.25em;
+    margin-right: 0px;
+    margin-bottom: 0.25em;
+    margin-left: 0px;
+    padding: 0.25em 1em 0.25em 0.5em;
+}
